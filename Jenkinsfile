@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('git cloned'){
             steps{
-                git url:'https://github.com/Prasanth2026/pro1/', branch: "master"'
+                git url:'https://github.com/Prasanth2026/pro1/;', branch: "master"
               
             }
         }
