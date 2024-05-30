@@ -27,7 +27,7 @@ pipeline {
         
      stage('Deploy') {
             steps {
-                sh 'sudo docker run -itd --name Me-first-containe2211 -p 8081:80 basitti/staragileprojectfinance:v1'
+                sh 'sudo docker run -itd --name Me-first-containe2211 -p 8085:80 basitti/staragileprojectfinance:v1'
                     
                     }
                 
